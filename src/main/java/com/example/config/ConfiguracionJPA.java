@@ -26,8 +26,8 @@ public class ConfiguracionJPA {
 	 DriverManagerDataSource dataSource = new DriverManagerDataSource();
 	 dataSource.setDriverClassName("oracle.jdbc.driver.OracleDriver");
 	 dataSource.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
-	 dataSource.setUsername("lucho");
-	 dataSource.setPassword("36871326");
+	 dataSource.setUsername("test");
+	 dataSource.setPassword("test");
 	 return dataSource;
 	 }
 	 @Bean
